@@ -42,7 +42,7 @@ public class TP5 extends javax.swing.JFrame {
 
         jLabel1.setText("Categoria");
 
-        jCCombo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jCCombo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Electrodomesticos", "Ropa", "Alimentos" }));
 
         jLabel2.setText("Nombre");
 
