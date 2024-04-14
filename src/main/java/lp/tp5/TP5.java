@@ -141,7 +141,12 @@ public class TP5 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jBAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBAgregarActionPerformed
-        // TODO add your handling code here:
+       String categoria = (String)jCCombo.getSelectedItem();
+        String nombre = jTNombre.getText();
+        String precio = (jTPrecio.getText());
+
+        Object arr[] = {nombre,categoria,precio};
+        modelo.addRow(arr);
     }//GEN-LAST:event_jBAgregarActionPerformed
 
     /**
