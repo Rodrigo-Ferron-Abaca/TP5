@@ -4,12 +4,16 @@
  */
 package lp.tp5;
 
+import javax.swing.table.DefaultTableModel;
+
 /**
  *
  * @author rodrigo
  */
 public class TP5 extends javax.swing.JFrame {
 
+    private DefaultTableModel modelo = new DefaultTableModel();
+    
     /**
      * Creates new form TP5
      */
@@ -52,6 +56,11 @@ public class TP5 extends javax.swing.JFrame {
         jLabel4.setText("Ingresar Producto");
 
         jBAgregar.setText("Agregar");
+        jBAgregar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jBAgregarActionPerformed(evt);
+            }
+        });
 
         jTableProductos.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -130,6 +139,10 @@ public class TP5 extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jBAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBAgregarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jBAgregarActionPerformed
 
     /**
      * @param args the command line arguments
