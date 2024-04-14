@@ -17,8 +17,9 @@ public class TP5 extends javax.swing.JFrame {
     /**
      * Creates new form TP5
      */
-    public TP5() {
+     public TP5() {
         initComponents();
+        armarCabecera();
     }
 
     /**
