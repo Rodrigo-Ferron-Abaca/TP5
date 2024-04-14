@@ -20,6 +20,7 @@ public class TP5 extends javax.swing.JFrame {
      public TP5() {
         initComponents();
         armarCabecera();
+        
     }
 
     /**
